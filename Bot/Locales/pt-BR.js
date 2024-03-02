@@ -1,15 +1,15 @@
 module.exports = {
 	lang: 'pt',
-	div: '<:izzysmine:921447883717373994> {{user}} **|** Está procurando um servidor de Minecraft? Venha fazer parte do [IzzysMC](https://indevelopment.com)\n>>> ⤷ **`IP:` **mc.izzysbot.xyz;\n⤷ **`Versões:`** Java (1.17.1/Original/Pirata).',
+	div: '<:izzysmine:921447883717373994> {{user}} **|** Quer um servidor de Minecraft? Vem pro [IzzysMC](https://indevelopment.com)\n>>> ⤷ **`IP:` **mc.izzysbot.xyz;\n⤷ **`Versões:`** Java (1.17.1/Original/Pirata).',
 	afk: {
-		set: ':zzz: {{user}} **|** Você está afk, motivo: `{{status}}`.',
-		remove: ':zzz: {{user}} **|** Você não está mais afk.',
-		mention: ':zzz: {{user}} **|** Está afk [{{time}}], motivo: `{{status}}`.',
+		set: ':zzz: {{user}} **|** Você tá afk, motivo: `{{status}}`.',
+		remove: ':zzz: {{user}} **|** Você não tá mais afk.',
+		mention: ':zzz: {{user}} **|** Tá afk [{{time}}], motivo: `{{status}}`.',
 	},
 	image: {
 		editando: '✍️ %u **|** editando',
-		args: '✍️ %u **|** Eu preciso que você me dê algum argumento para que eu possa editar',
-		long: '✍️ %u **|** Sua mensagem é muito longa, tente reduzir para 300 caracteres',
+		args: '✍️ %u **|** Me dá um argumento pra editar',
+		long: '✍️ %u **|** Sua mensagem é longa demais, tenta reduzir pra 300 caracteres',
 		achivment: 'Progresso Feito!'
 	},
 	actions: {
@@ -20,7 +20,7 @@ module.exports = {
 			}
 		},
 		slap: {
-			description: '%u1 deu um soco em %u2.',
+			description: '%u1 deu um tapa em %u2.',
 			labels: {
 				rt: 'Retribuir'
 			}
@@ -32,78 +32,78 @@ module.exports = {
 			}
 		},
 		pat: {
-			description: '%u1 deu um cafuné em %u2.',
+			description: '%u1 fez carinho na cabeça de %u2.',
 			labels: {
 				rt: 'Retribuir'
 			}
 		}
 	},
 	unbanall: {
-		title: 'Unbanall',
-		description: 'Deseja mesmo desbanir todos os membros de seu servidor? Essa ação irá durar muito tempo, porém pode ser desfeita com o comando `/desunbanall`.',
-		confirm: 'Sim, desbanir todos.',
-		done: 'Todos os membros foram desbanidos, tempo gasto: `%t`.',
+		title: 'Desbanir Todo Mundo',
+		description: 'Quer desbanir todo mundo do seu servidor? Vai demorar, mas pode desfazer com `/undesbanirtodo`.',
+		confirm: 'Sim, desbanir todo mundo.',
+		done: 'Todo mundo foi desbanido, tempo: `%t`.',
 	},
 	desunban: {
 		title: 'Desunban',
-		description: 'Deseja mesmo banir todos os membros que foram desbanidos de seu servidor? Essa ação irá durar muito tempo, porém pode ser desfeita com o comando `/unbanall`.',
-		confirm: 'Sim, banir todos.',
-		done: 'Todos os membros foram banidos, tempo gasto: `%t`.',
+		description: 'Quer banir todo mundo que já foi desbanido do seu servidor? Vai demorar, mas pode desfazer com `/desbanirtodo`.',
+		confirm: 'Sim, banir todo mundo.',
+		done: 'Todo mundo foi banido, tempo: `%t`.',
 	},
 	report: {
-		p1: 'Está querendo denunciar algumas pessoas? Vieste ao lugar certo! Para realizar o report basta clicar no formulário!',
+		p1: 'Quer denunciar alguém? Tá no lugar certo! Pra reportar, é só clicar no formulário!',
 		id: 'ID do Formulário:',
-		dm: 'Veja suas mensagens diretas!'
+		dm: 'Vê tuas DMs!'
 	},
 	daily: {
-		coletado: 'Você coletou **%m** diárias, volte amanhã e colete novamente.',
-		coletou: 'Você já coletou sua recompensa diária, colete-a novamente em **%time**',
-		coinscoletado: '**Você resgatou %add coins <:coins:1213045943981711381>** \n Veja seu nivel de prémios diarios:',
-		baucoletado: '**Você resgatou __1__ Baú <a:ts_bau:1213047244702482453>** \n Veja seu nivel de prémios diarios:',
-		colete: 'Colete sua recompensa diária'
+		coletado: 'Você coletou **%m** diárias, volta amanhã.',
+		coletou: 'Já coletou hoje, volta em **%time**',
+		coinscoletado: '**Você ganhou %add coins <:coins:1213045943981711381>** \n Veja teu nível de prêmios diários:',
+		baucoletado: '**Você ganhou __1__ Baú <a:ts_bau:1213047244702482453>** \n Veja teu nível de prêmios diários:',
+		colete: 'Coleta tua recompensa diária'
 	},
-	premium: 'Você descobriu uma funcionalidade premium, para ser um usuário premium entre em meu [servidor de suporte](<https://discord.gg/Ny7anmsrjb>)!',
+	premium: 'Descobriu uma funcionalidade premium, pra ser premium entra no [servidor de suporte](<https://discord.gg/Ny7anmsrjb>)!',
 	bola: {
 		title: '🎱 Bola Mágica',
 		field1: '**Pergunta:**',
 		field2: '**Resposta:**',
 	},
 	ship: {
-		nou: 'Mencione algum usuário para shippar',
-		d1: 'Vocês não são compatíveis, são muito diferentes um do outro 😔',
-		d2: 'Vocês podem ser amigos, mas não vejo um futuro melhor entre vocês, vocês são parecidos um com o outro 🤝',
-		d3: 'Vocês podem ser um casal, os gostos são quase os mesmos e vocês se conhecem muito 👀',
-		d4: 'São perfeitos, feitos um para o outro, vai em frente, vocês tem tudo para dar certo ❤️'
+		nou: 'Menciona alguém pra shippar',
+		d1: 'Vocês não combinam, são muito diferentes 😔',
+		d2: 'Podem ser amigos, mas não vejo futuro romântico, vocês são parecidos 🤝',
+		d3: 'Podem ser um casal, gostam das mesmas coisas e se conhecem bem 👀',
+		d4: 'São perfeitos juntos, vai fundo, tem tudo pra dar certo ❤️'
 	},
-	dashboard: 'A Configuração do bot foi migrada para o dashboard, acesse por esse link: https://izzysbot.xyz/dashboard/%g',
+	dashboard: 'As configurações tão no dashboard, acessa aqui: https://izzysbot.xyz/dashboard/%g',
 	backup: {
 		create: {
-			success: 'Backup criado com sucesso!\n⤷ ID: `%id`, tempo gasto para criar: `%t`',
+			success: 'Backup criado!\n⤷ ID: `%id`, tempo gasto: `%t`',
 		},
 		list: {
-			noBackups: 'Você não possui backups.',
+			noBackups: 'Não tem backups.',
 			backupList: 'Lista de backups:',
 			backupID: 'ID: %id',
 		},
 		load: {
-			success: 'Backup carregado com sucesso!',
+			success: 'Backup carregado!',
 			error: 'Backup não encontrado.',
-			confirm: 'Você deseja carregar o backup? Saiba que todas as suas configurações serão substituidas pelo backup, não será recuperado **mensagens, cargos & canais** depois desse processo.\n> Para carregar clique no **botão** abaixo.',
+			confirm: 'Quer carregar o backup? Depois disso, não tem volta.\n> Pra carregar clica no **botão** abaixo.',
 		}
 	},
 	clusters: {
-		desc: '> Esse servidor está no cluster `%id`\n- Nome: `%name`\n- Ping: `%ping`',
+		desc: '> Esse servidor tá no cluster `%id`\n- Nome: `%name`\n- Ping: `%ping`',
 		field: 'Info Clusters:',
 		fielDesc: '- Cluster %id\n- Ping: %p\n- PingDB: %pd\n- Consumo: %ram'
 	},
 	gender: {
 		title: 'Gênero',
-		desc: 'Olá, %u, eu gostaria de te conhecer melhor, o que você é? Menino? Menina? Ou nenhum dos dois? Eu preciso saber para que eu possa me adequar mais em minhas respostas!\n>>> - 🚹 Menino\n- 🚺 Menina\n- 🚻 Nenhum dos dois',
-		change: 'Gênero alterado para `%g` com sucesso!',
+		desc: 'Oi, %u, me conta, tu é menino? Menina? Ou nenhum dos dois? Preciso saber pra responder melhor!\n>>> - 🚹 Menino\n- 🚺 Menina\n- 🚻 Nenhum dos dois',
+		change: 'Gênero alterado pra `%g`!',
 		male: 'menino',
 		female: 'menina'
 	},
-	anagramWords: ['andar', 'apreciar', 'reconhecer', 'ter', 'anúncio', 'televisão', 'buraco', 'acadêmico', 'pacote',
+    anagramWords: ['andar', 'apreciar', 'reconhecer', 'ter', 'anúncio', 'televisão', 'buraco', 'acadêmico', 'pacote',
 		'residente', 'puxar', 'tragédia', 'olhar', 'compacto', 'má', 'faca', 'perseguição', 'bomba', 'biscoito', 'leilão', 'tratar',
 	 'atrair', 'empregar', 'naufrágio', 'incerteza', 'rumor', 'formal', 'nobre', 'brincadeira', 'original', 'cover', 'ballet', 'cheiro',
 	  'ligação', 'refletir', 'barulhento', 'ignorante', 'pão', 'fraco', 'vidro', 'quarto', 'desordem', 'hall', 'manhã', 'conexão',
@@ -111,18 +111,18 @@ module.exports = {
 		'obrigado', 'caneta', 'alocação', 'qualificado', 'irmã', 'torre', 'espírito', 'proteção', 'ver', 'transação', 'harmonia',
 		'precedente'],
 	botban: {
-		title: 'Você está banido!',
-		description: '↳ Você foi banido de utilizar a `%z` por: `%r`\n> <:info:1213154090876538901> Você pode pedir uma apelação em nosso [servidor de suporte](https://discord.gg/Ny7anmsrjb).',
+		title: 'Você tá banido!',
+		description: '↳ Foi banido da `%z` por: `%r`\n> <:info:1213154090876538901> Pode apelar no [servidor de suporte](https://discord.gg/Ny7anmsrjb).',
 	},
-	customCommand: 'Comando criado com sucesso, use `/%n` para executar.',
-	alreadyExists: 'O comando já existe.',
+	customCommand: 'Comando criado, usa `/%n` pra usar.',
+	alreadyExists: 'Comando já existe.',
 	ticket: {
 		sus: 'Sucesso!',
-		already: 'Desculpa, você já tem um ticket.',
-		await: 'Aguarde até que um dos atendentes te responda.',
-		created: 'Seu ticket foi criado.',
-		delete: 'Seu ticket foi encerrado e será apagado em 10 segundos.',
-		create: 'Para criar um ticket clique no botão abaixo.',
+		already: 'Você já tem um ticket.',
+		await: 'Espera aí, até te responderem.',
+		created: 'Ticket criado.',
+		delete: 'Ticket fechado, vai apagar em 10 segundos.',
+		create: 'Clica abaixo pra criar um ticket.',
 		labels: {
 			delete: 'Fechar',
 			create: 'Abrir Ticket'
@@ -146,18 +146,18 @@ module.exports = {
 		mod: 'Moderador:',
 		bani: 'Banido',
 		desbani: 'Desbanido',
-		jump: 'Ir para mensagem',
-		set: 'Canal setado para `%c`'
+		jump: 'Ir pra mensagem',
+		set: 'Canal setado pra `%c`'
 	},
 	aki: {
 		reg: 'pt',
 		q: 'Pergunta:',
 		r: 'Respostas:',
 		i: 'Iniciando o Akinator',
-		is: 'Esse é seu personagem?',
-		win: 'Ótimo! Acertei mais uma vez.',
+		is: 'Esse é teu personagem?',
+		win: 'Acertei de novo.',
 		nowin: 'Uh, você ganhou',
-		yay: 'Amei brincar com você!',
+		yay: 'Amei brincar!',
 		res: '[sim (**s**) / não (**n**)]'
 	},
 	labels: {
@@ -167,34 +167,34 @@ module.exports = {
 		load: 'Carregar'
 	},
 	guess: {
-		start: 'O Jogo irá começar em **5 segundos** com um número entre `%min` e `%max`.',
-		started: 'Valendo!',
-		number: 'O Número escolhido foi `%num`, os usuários devem adivinhar ele para poder ganhar o evento.',
-		win: 'Você Acertou! O Número escolhido foi `%num`!'
+		start: 'Jogo começa em **5 segundos**, número entre `%min` e `%max`.',
+		started: 'Vai começar!',
+		number: 'Número escolhido: `%num`, adivinha aí!',
+		win: 'Acertou! Número era `%num`!'
 	},
 	lockdown: {
-		pass: 'Para iniciar o lockdown envie `lock` no chat.\n> ⚠️ Caso queira cancelar envie qualquer outra coisa no chat.',
-		cancel: 'O Lockdown foi cancelado com sucesso.',
-		sucess: 'O Lockdown foi executado com sucesso.',
-		locking: 'O Lockdown está em andamento.',
-		noCanal: 'Nenhum canal foi fechado.'
+		pass: 'Envia `lock` pra iniciar o lockdown.\n> ⚠️ Se quiser cancelar, manda qualquer outra coisa.',
+		cancel: 'Lockdown cancelado.',
+		sucess: 'Lockdown feito.',
+		locking: 'Lockdown rolando.',
+		noCanal: 'Nenhum canal fechado.'
 	},
 	print: {
-		site: 'Print do website:'
+		site: 'Print do site:'
 	},
 	mention: {
-		hello: 'Olá %user!',
-		about: 'Sou uma bot multifuncional para o discord!',
-		help: 'Para saber meus comandos, digite **/help**.',
+		hello: 'Oi %user!',
+		about: 'Sou um bot multifuncional!',
+		help: 'Pra ver os comandos, digita **/help**.',
 		labels: {
 			support: 'Servidor de Suporte',
 			invite: 'Convite',
-			website: 'Website'
+			website: 'Site'
 		}
 	},
 	reactionRole: {
-		invalidMessage: 'Não consegui encontrar mensagem com o id `%id%`',
-		sucess: 'ReactionRole criado com sucesso!'
+		invalidMessage: 'Não achei mensagem com o id `%id%`',
+		sucess: 'ReactionRole criado!'
 	},
 	eventLog: {
 		fields: {
@@ -205,31 +205,31 @@ module.exports = {
 		channel: 'Canal:'
 	},
 	docs: {
-		args: 'Diga o que será pesquisado na documentação.'
+		args: 'Diz o que quer pesquisar na documentação.'
 	},
 	fnshop: {
-		args: 'Inclua o ID do canal que será enviado a loja do fortnite.',
-		channel: 'Não tenho permissão para enviar mensagens no canal citado.',
-		sucess: 'Canal setado com sucesso!'
+		args: 'Manda o ID do canal pra enviar a loja do fortnite.',
+		channel: 'Sem permissão pra enviar mensagem no canal.',
+		sucess: 'Canal setado!'
 	},
 	message: {
-		mod: 'Esse comando só pode ser usado por meus moderadores!',
-		P: 'Olá, humano!',
-		view: 'Eu não tenho permissão de ler o histórico de mensagens!',
+		mod: 'Só meus moderadores podem usar!',
+		P: 'Oi, humano!',
+		view: 'Não tenho permissão pra ver mensagens!',
 		the: 'O Comando',
-		unk: 'não existe ou não pode ser executado no momento!',
-		user: 'Você não tem todas as permissões necessárias para usar este comando!\nPermissões necessárias:',
-		bot: 'Eu não tenho todas as permissões necessárias para executar este comando! \n Permissões necessárias:',
-		dev: 'Apenas meus desenvolvedores podem usar este comando!',
-		c: 'Aguarde %t segundos para usar outro comando.',
-		e: 'Ops, ocorreu um erro!',
-		e2: 'Reporte este erro!',
-		e3: 'Provavelmente minha equipe ja sabe sobre este erro, mas que tal você ajudar? Você pode abrir um [issue](https://github.com/izzysbot/izzys/issues) no [github](https://github.com/izzysbot/izzys) ou então reportar em meu [servidor de suporte](https://discord.gg/Ny7anmsrjb), vamos fazer o discord um lugar melhor, juntos 🤝',
-		nsfw: 'Esse comando só pode ser usado em canais nsfw'
+		unk: 'não existe ou não pode ser executado agora!',
+		user: 'Você não tem todas as permissões pra usar este comando!\nPermissões necessárias:',
+		bot: 'Não tenho todas as permissões pra executar este comando! \n Permissões necessárias:',
+		dev: 'Só meus devs podem usar!',
+		c: 'Espera %t segundos pra usar outro comando.',
+		e: 'Erro!',
+		e2: 'Reporta!',
+		e3: 'Minha equipe já sabe, mas que tal ajudar? Abre um [issue](https://github.com/izzysbot/izzys/issues) ou reporta no [servidor de suporte](https://discord.gg/Ny7anmsrjb), vamos fazer o discord melhor, juntos 🤝',
+		nsfw: 'Só em canais nsfw'
 	},
 	host: {
-		db: 'Eu utilizo [MongoDB](https://mongodb.com) para meu banco de dados, hospedados em maquinas da   [Azure](https://azure.microsoft.com).',
-		vps: 'Eu sou hospedada na VPS, utilizando maquinas da [OVH](https://ovh.com), com sistema operacional    Ubuntu.'
+		db: 'Uso [MongoDB](https://mongodb.com), hospedados na [Azure](https://azure.microsoft.com).',
+		vps: 'Hospedada na VPS, com [OVH](https://ovh.com) e Ubuntu.'
 	},
 	giveaway: {
 		sec: 'segundos',
@@ -239,33 +239,33 @@ module.exports = {
 		term: 'Terminou ás',
 		host: 'Sorteio de: {user}',
 		win: 'ganhador(es)',
-		wins: 'Parabéns, {winners}! Você ganhou **{this.prize}**!\n{this.messageURL}',
-		react: 'Reaja com 🎁 para participar!',
+		wins: 'Parabéns, {winners}! Ganhou **{this.prize}**!\n{this.messageURL}',
+		react: 'Reage com 🎁 pra participar!',
 		restante: 'Tempo Restante:',
-		no: 'Sorteio cancelado, sem participações válidas',
+		no: 'Sem participações válidas',
 		give: 'SORTEIO',
 		giveend: 'SORTEIO ENCERRADO',
-		start: 'Você não usou o comando corretamente, utilize: `%pgiveaway-start [tempo(10s, 10m)] [ganhadores(1, 1w)] [prêmio(fotos de gatinhos)]`, não inclua **[]** ou **()**.',
-		end: 'Você não usou o comando corretamente, utilize: `%pgiveaway-end [id da mensagem]`',
-		reroll: 'Você não usou o comando corretamente, utilize: `%pgiveaway-reroll [id da mensagem]`',
-		novo: 'Novo ganhador(es): {winners}! Parabéns, vocês ganharam **{this.prize}**\n{this.messageURL}',
+		start: 'Errado, usa `%pgiveaway-start [tempo(10s, 10m)] [ganhadores(1, 1w)] [prêmio(fotos de gatinhos)]`, sem **[]** ou **()**.',
+		end: 'Errado, usa `%pgiveaway-end [id da mensagem]`',
+		reroll: 'Errado, usa `%pgiveaway-reroll [id da mensagem]`',
+		novo: 'Novo ganhador(es): {winners}! Parabéns, ganharam **{this.prize}**\n{this.messageURL}',
 		err: 'Sem participações válidas, nenhum(s) novo(s) vencedor(es) escolhidos!'
 	},
 	help: {
 		title: 'Lista de Comandos • ',
-		creators: 'Eu fui desenvolvida por ',
-		description: '> Meu prefixo atual é: `%p`\n> Caso tenha alguma dúvida entre em meu servidor de suporte: [Clique Aqui](https://discord.gg/Ny7anmsrjb)\n> Me adicione clicando [aqui](https://discord.com/oauth2/authorize?client_id=880173509077266483&scope=bot&permissions=805432446)',
-		nsfw: 'Você precisa estar em um canal NSFW para ver os comandos nsfw. '
+		creators: 'Fui desenvolvida por ',
+		description: '> Meu prefixo atual é: `%p`\n> Dúvida? [Servidor de Suporte](https://discord.gg/Ny7anmsrjb)\n> Me adiciona [aqui](https://discord.com/oauth2/authorize?client_id=880173509077266483&scope=bot&permissions=805432446)',
+		nsfw: 'Precisa estar em canal NSFW pra ver os comandos nsfw. '
 	},
 	calc: {
-		ex: 'Estão faltando argumentos, utilize, `%pcalc <expressão>`',
-		inv: 'Expressão invalida.',
+		ex: 'Falta argumento, usa `%pcalc <expressão>`',
+		inv: 'Expressão inválida.',
 		res: 'Resultado'
 	},
 	botinfo: {
-		texto: 'Olá, sou a **%bot**, um bot com funcionalidades únicas, que todo servidor precisa! Atualmente conheço **%u pessoas** diferentes que utilizam de minhas funcionalidades e estou em **%g servidores** diferentes.\n\nSou desenvolvida por `%devs` utilizando [Eris](https://abal.moe/Eris/) utilizando [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) & [NodeJS](https://nodejs.org/en/)',
+		texto: 'Olá, sou a **%bot**, um bot multifuncional! Conheço **%u pessoas** diferentes e estou em **%g servidores**.\n\nDesenvolvida por `%devs` com [Eris](https://abal.moe/Eris/) usando [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) & [NodeJS](https://nodejs.org/en/)',
 		recursos: 'Recursos:',
-		mem: 'esse servidor está usando %m da minha memória.',
+		mem: 'uso %m da minha memória.',
 	},
 	messages: {
 		tem: 'tem',
@@ -273,140 +273,139 @@ module.exports = {
 		title: 'Mensagens'
 	},
 	together: {
-		channel: 'Você precisa estar em um canal de voz para executar este comando.',
-		done: 'Basta clicar no link e você será redirecionado para a atividade:',
-		done2: '**(só funciona no computador)**'
+		channel: 'Precisa estar num canal de voz.',
+		done: 'Clica no link pra fazer a atividade:',
+		done2: '**(só no pc)**'
 	},
 	erela: {
-		np: 'Tocando agora',
-		end: 'A música acabou, estou saindo',
-		skip: 'A música foi pulada com sucesso.',
-		not: 'Não estou tocando nada no servidor.',
-		voice: 'Fiquei sozinha no canal de voz, estou saindo!',
+		np: 'Tocando',
+		end: 'Música acabou, tchau',
+		skip: 'Pulada.',
+		not: 'Nada tocando.',
+		voice: 'Sozinha no canal, saindo!',
 		duration: 'Duração:',
 		loop: {
-			ativado: 'O Loop da música atual foi ativado.',
-			desativado: 'O Loop da música atual foi desativado.'
+			ativado: 'Loop ativado.',
+			desativado: 'Loop desativado.'
 		}
 	},
 	play: {
-		nada: 'Estão faltando argumentos, utilize `%pplay <música | url>`',
-		add: 'Adicionado a fila',
-		can: 'Você precisa estar em um canal de voz para ouvir música.'
+		nada: 'Falta argumento, usa `%pplay <música | url>`',
+		add: 'Na fila',
+		can: 'Precisa estar num canal de voz.'
 	},
 	waifu: {
-		casar: 'Reaja com 💖 para se casar',
-		casou: 'Você se casou com %w',
+		casar: 'Reage com 💖 pra casar',
+		casou: 'Casado com %w',
 		dono: 'Dono',
-		utl: 'Utilize: %pwaifu-info [ID]',
-		casado: 'Você já casou recentemente, você pode casar a cada 2 horas',
-		noharem: 'Você não tem waifus, use `%pwaifu roll` para adicionar um.',
+		utl: 'Usa: %pwaifu-info [ID]',
+		casado: 'Já casou recentemente, só a cada 2 horas',
+		noharem: 'Sem waifus, usa `%pwaifu roll` pra adicionar.',
 		battle: 'Batalha de Waifus',
-		battleDesc: '**%u** está procurando um parceiro para um duelo de waifus, quem vai encarar?',
+		battleDesc: '**%u** quer duelar, quem vai?',
 		label: 'Eu!',
-		yms: 'Você não pode batalhar com você mesmo.',
-		bat: '%u, você irá batalhar com %2u, vocês tem 30 segundos para escolher uma waifu (jogador encontrado em `%t`).',
+		yms: 'Não pode batalhar consigo mesmo.',
+		bat: '%u vs %2u, 30s pra escolher waifu (jogador encontrado em `%t`).',
 		select: 'Nada Selecionado.'
 	},
 	tradutor: {
-		lang: 'Você precisa especificar a linguagem, examplo: %translator **en** Oi',
-		text: 'Você precisa especificar o texto, examplo: %translator en  **Oi** '
+		lang: 'Especifica a linguagem, ex: %translator **en** Oi',
+		text: 'Especifica o texto, ex: %translator en  **Oi** '
 	},
 	invite: {
-		add: 'Me Adicione ao seu servidor!',
-		desc: 'Yay, gostou de meus comandos? Ou de minhas funcionalidades? Me [adicione](https://discord.com/oauth2/authorize?client_id=%id&scope=bot%20applications.commands&permissions=805432446)\n\nPrecisa de ajuda ou algo do tipo? Entre em meu [servidor de suporte](https://discord.gg/Ny7anmsrjb)\n\n Adicionou e quer começar a configurar a Izzys para seu servidor? entre na [dashboard](https://izzysbot.xyz/dashboard)'
+		add: 'Me adiciona!',
+		desc: 'Gostou dos comandos? Me [adiciona](https://discord.com/oauth2/authorize?client_id=%id&scope=bot%20applications.commands&permissions=805432446)\n\nDúvida? [Servidor de Suporte](https://discord.gg/Ny7anmsrjb)\n\n Adicionou e quer configurar? vai na [dashboard](https://izzysbot.xyz/dashboard)'
 	},
 	ban: {
-		noarg: '**Mencione** algum usuário ou dê o **ID** do mesmo.',
-		vc: 'Você deseja mesmo punir',
+		noarg: '**Menciona** alguém ou dá o **ID**.',
+		vc: 'Punir',
 		r: '✅',
 		r2: '✅',
 		mot: 'Não Definido',
 		mot2: 'Punido por:',
 		mot3: 'Motivo:',
 		the: 'O Usuário',
-		foi: 'foi punido com sucesso.',
-		dev: 'Você não pode punir o desenvolvedor do bot.'
+		foi: 'punido.',
+		dev: 'Não pode punir o dev.'
 	},
 	clear: {
-		msg: 'mensagens** limpas com sucesso',
-		no: 'Insira a quantidade de mensagens a serem limpas',
-		p: 'Procurando mensagens, isso pode levar 30 segundos...',
-		num: 'Eu só consigo limpar entre 2 a 100 mensagens'
+		msg: 'mensagens** apagadas',
+		no: 'Quantas quer apagar?',
+		p: 'Procurando, 30 segundos...',
+		num: '2 a 100'
 	},
 	baninfo: {
 		user: 'Usuário:',
 		reason: 'Motivo:',
-		noreason: 'Nenhum motivo definido.',
-		desban: 'Para desbanir reaja com 🐹.'
+		noreason: 'Nenhum motivo.',
+		desban: 'Reage com 🐹 pra desbanir.'
 	},
 	multiLang: {
-		unknownLanguage: 'Idioma desconhecido.\n<:info:1213154090876538901> Idiomas disponíveis: %langs',
-		insertLang: 'Você não específicou um idioma. Para alterar o idioma do bot, utilize `%pidioma %langs`'
+		unknownLanguage: 'Idioma desconhecido.\n<:info:1213154090876538901> Idiomas: %langs',
+		insertLang: 'Não especificou. Pra mudar o idioma, usa `%pidioma %langs`'
 	},
 	autorole: {
-		insertRole: 'Você não especificou um cargo, utilize: `%pautorole <@cargo | cargo id | desativar>.`',
-		success: 'Certo, agora membros que entrarem no servidor terão o cargo `%cargo` adicionado automaticamente.',
-		disabled: 'Autorole foi desativado com sucesso.',
+		insertRole: 'Não especificou, usa: `%pautorole <@cargo | cargo id | desativar>.`',
+		success: 'Entrada dá cargo `%cargo`.',
+		disabled: 'Autorole desativado.',
 		noset: 'Não Setado',
-		bot: 'Mencione o cargo que será dado quando algum BOT entrar no servidor.',
-		botset: 'O Autorole de bots foi setado para os cargos:',
-		user: 'Mencione o cargo que será dado quando algum usuário entrar no servidor.',
-		userset: 'O Autorole de usuários foi setado para os cargos:',
+		bot: 'Cargo pra bots?',
+		botset: 'Setado pra bots:',
+		user: 'Cargo pra membros?',
+		userset: 'Setado pra membros:',
 		mem: 'Membros',
 		del: 'Desativar',
-		del2: 'Reaja com ❌ para desativar/deletar'
+		del2: 'Reage com ❌ pra desativar/deletar'
 	},
 	userinfo: {
-		inf: 'Informações de:',
-		tag: 'Tag de:',
-		badges: 'Emblemas de:',
-		id: 'ID de:',
-		create: 'Conta criada dia:',
-		join: 'Entrou dia:',
-		more: 'Mais Informações.',
-		perms: 'Permissões:',
+		inf: 'Info:',
+		tag: 'Tag:',
+		badges: 'Emblemas:',
+		id: 'ID:',
+		create: 'Criado:',
+		join: 'Entrou:',
+		status: 'Status:',
+		bots: 'Bots:',
 		roles: 'Cargos:',
-		hash: 'Hash do avatar:',
-		off: 'Usuário fora do servidor.'
+		emoji: 'Emojis:',
+		boost: 'Boost:',
+		voice: 'Canales de voz:',
+		text: 'Canales de texto:',
+		act: 'Atividade:'
 	},
-	slash: 'devido a alguns problemas de compatibilidade, mudei completamente para **Comandos Slash**, se os comandos não aparecerem, adicione-me novamente clicando aqui: [adicionar](https://izzysbot.xyz/add), não é necessário remover o bot, caso os comandos ainda não foram atualizados em seu servidor, pode levar até uma hora para que sejam atualizados em todos os servidores, devido ao discord.',
-	avatar: {
-		title: 'Avatar de:',
-		download: 'Link para download:',
-		hex: 'Hex para usar em seu perfil:',
-		click: 'Clique Aqui',
-		footer: 'Se o plano não funciona, mude o plano, não a meta.'
+	shared: {
+		commu: 'Servidor de Suporte',
+		dash: 'Dashboard',
+		invite: 'Convite',
+		website: 'Site',
+		upvote: 'Vote',
+		prefix: 'Prefixo'
 	},
-	perfil: {
-		ngm: 'NINGUÉM',
-		desc: 'A Izzys é minha amiga, sabia que você pode alterar isso usando "%psobremim"?',
-		comp: 'Clique no **botão** para comprar',
-		succ: 'Background comprado com sucesso',
-		sep: 'Background setado com sucesso',
-		no: 'Você não tem dinheiro suficiente para comprar este background'
+	stats: {
+		up: 'Uptime:',
+		serv: 'Servidores:',
+		user: 'Usuários:',
+		msg: 'Mensagens:'
 	},
-	filters: {
-		ativado: 'O Filtro %f foi ativado com sucesso.',
-		desativado: 'O Filtro %f foi desativado com sucesso.'
+	blacklist: {
+		bl: 'Blacklist',
+		label: 'Usuário',
+		usr: 'Usuário',
+		add: 'Adicionado!',
+		add2: 'Usuário adicionado com sucesso a blacklist!',
+		rmv: 'Removido!',
+		rmv2: 'Usuário removido com sucesso da blacklist!',
+		bad: 'Nenhum usuário encontrado.'
 	},
 	economy: {
-		carteira: 'Carteira:',
-		banco: 'Banco:',
-		jacoletou: 'Você já coletou sua recompensa diária hoje! Tente novamente em:',
-		recebeu: 'Você recebeu:',
-		noarg: 'Estão faltando argumentos, utilize: `%presgatar <codigo>.`',
-		resgatado: 'Você já resgatou esse código.',
-		nocode: 'Esse código não existe.',
-		sucesso: 'Você resgatou o promocode **%p** e ganhou **%v ryos** 🥳'
-	},
-	sobre: {
-		nada: 'Preciso de algum argumento, utilize: `%psobremim <texto>`',
-		alt: 'Sobre alterado para: `%t`'
-	},
-	nsfw: {
-		ativado: 'Sistema ativado com sucesso!',
-		desativado: 'Sistema desativado com sucesso!',
-		nonsfw: 'Não envie conteúdo NSFW fora de canais NSFW.'
+		cur: 'Sistema monetário:',
+		bal: 'Balanço',
+		win: 'Ganhos',
+		cur2: 'Coins',
+		wallet: 'Carteira',
+		bank: 'Banco',
+		inv: 'Inventário',
+		coin: '<:coins:1213045943981711381>',
+		hol: 'Holding'
 	}
-};
+}
